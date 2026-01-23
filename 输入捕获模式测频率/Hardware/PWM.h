@@ -1,0 +1,8 @@
+#ifndef __PWM_H
+#define __PWM_H
+
+void PWM_Init(void);
+void PWM_SetCompare(uint16_t Compere);
+void PWM_SetPrescaler(uint16_t prescaler);
+
+#endif
